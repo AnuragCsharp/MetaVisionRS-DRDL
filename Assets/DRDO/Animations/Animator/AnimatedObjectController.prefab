@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6606870080557174808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8450141498006773888}
+  - component: {fileID: 3141539343573331096}
+  m_Layer: 0
+  m_Name: AnimatedObjectController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8450141498006773888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606870080557174808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3141539343573331096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606870080557174808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b1e0c8334e9aa4478b9f7a33a11948d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placementMarker: {fileID: 0}
+  animatedPrefabs:
+  - {fileID: 4940756742086408619, guid: 25318dcddf13fa74783292d995f3e087, type: 3}
+  - {fileID: 4984070805536501107, guid: 507bf6696066e1b4c9607a281fccaf10, type: 3}
+  - {fileID: 7465459365788039882, guid: a34866ad1e95ee640bdd46804bdc16b5, type: 3}
+  - {fileID: 3259343942415454588, guid: 03a20ed87373cdd4b913458b3a588bd4, type: 3}
+  - {fileID: 3519590630527374484, guid: 8bab86fabd9aca248bae05ad65c407f5, type: 3}
+  - {fileID: 3526994109335292030, guid: 4e08f9209387b8842a080d53a9e7efab, type: 3}
+  - {fileID: 7062016989235213624, guid: 79e507283a8babc4181650671cc165f3, type: 3}
+  - {fileID: 8526007607705196186, guid: d66ef32a196239e46b1ea79c01460ca6, type: 3}
+  - {fileID: 3816517292546494056, guid: ef41d0f7dc79d4f4d9c42991d20b987f, type: 3}
+  - {fileID: 5484049096099343403, guid: 2d5b61ae1a9c90646a1c52259f21726f, type: 3}
+  animatorController: {fileID: 9100000, guid: ca0ac89f90a54f947a4d8eb5e8f242ac, type: 2}
